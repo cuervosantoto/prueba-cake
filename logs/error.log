@@ -1,0 +1,42 @@
+2015-03-26 23:08:05 Error: Fatal Error (1): Class 'Locale' not found in [C:\xampp\htdocs\cakephp-3-0-0\vendor\cakephp\cakephp\src\I18n\I18n.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-26 23:08:06 Error: Fatal Error (1): Class 'Locale' not found in [C:\xampp\htdocs\cakephp-3-0-0\vendor\cakephp\cakephp\src\I18n\I18n.php, line 243]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-03-26 23:44:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class MyApp could not be found.
+Exception Attributes: array (
+  'class' => 'MyApp',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp-3-0-0/my_app
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-3-0-0\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-03-26 23:50:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bake could not be found.
+Exception Attributes: array (
+  'class' => 'Bake',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp-3-0-0/bake
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp-3-0-0\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
